@@ -1,0 +1,7 @@
+{
+    "esversion"     : 6,
+    "curly"         : true,
+    "eqeqeq"        : true,
+    "noempty"       : true,
+    "unused"        : true
+}

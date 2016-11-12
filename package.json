@@ -1,0 +1,35 @@
+{
+    "name": "stringriod",
+    "version": "0.1.0",
+    "description": "String on steroid, convert string to various cases such as studleCase, CamelCase, snake_case",
+    "main": "index.js",
+    "scripts": {
+        "test": "gulp test"
+    },
+    "tags": [
+        "stringriod",
+        "string converter",
+        "studle case",
+        "camel case",
+        "snake case"
+    ],
+    "author": {
+        "name": "Ravi Vaisayawan",
+        "email": "say@hellomustache.com"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "babel-preset-es2015": "^6.18.0",
+        "babel-register": "^6.18.0",
+        "chai": "^3.5.0",
+        "gulp": "^3.9.1",
+        "gulp-istanbul": "^1.1.1",
+        "gulp-jshint": "^2.0.2",
+        "gulp-mocha": "^3.0.1",
+        "jshint": "^2.9.4",
+        "jshint-stylish": "^2.2.1",
+        "mocha": "^3.1.2",
+        "remap-istanbul": "^0.7.0"
+    }
+}
