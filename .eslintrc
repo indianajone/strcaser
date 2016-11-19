@@ -1,0 +1,18 @@
+{
+    "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "root": true,
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    plugins: [
+        "mocha"
+    ],
+    "extends": "eslint:recommended",
+    "rules": {
+        "no-useless-escape": 0
+    }
+}
