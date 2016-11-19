@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/indianajone/strcaser/branch/master/graph/badge.svg)](https://codecov.io/gh/indianajone/strcaser)
+
 # String Caser
 
 "STRING CASER", It gives functionality to convert string into various cases.
