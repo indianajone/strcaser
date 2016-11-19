@@ -1,19 +1,19 @@
-# Stringroid
+# String Caser
 
-"STRING ON STERIOD", It gives functionality to convert string into various cases. Also provides some utility function like random a string.
+"STRING CASER", It gives functionality to convert string into various cases. Also provides some utility function like random a string.
 
 ## Installation
 
 Install module:
 
-    `npm install stringroid --save`
+    `npm install strcaser --save`
     
 ## Usage
 
 ### snake_case
 
 ```javascript
-import {snake_case} from "stringroid";
+import {snake_case} from "strcaser";
 
 snake_case("I am a string on steriod"); // i_am_a_string_on_steriod
 snake_case("IAmAStringOnSteriod"); // i_am_a_string_on_steriod
@@ -28,7 +28,7 @@ snake_case("i__am__a__string__on__streriod", "__") // i_am_a_string_on_steriod
 ### studle_case
 
 ```javascript
-import {studle_case} from "stringroid";
+import {studle_case} from "strcaser";
 
 studle_case("i_am_a_string_on_steriod"); // iAmAStringOnSteriod
 studle_case("IAmAStringOnSteriod"); //  iAmAStringOnSteriod
@@ -43,7 +43,7 @@ studle_case("i.am.a.string.on.steriod"); // iAmAStringOnSteriod
 ### camel_case
 
 ```javascript
-import {camel_case} from "stringroid";
+import {camel_case} from "strcaser";
 
 camel_case("i_am_a_string_on_steriod"); // IAmAStringOnSteriod
 camel_case("iAmAStringOnSteriod"); //  IAmAStringOnSteriod
@@ -52,7 +52,7 @@ camel_case("iAmAStringOnSteriod"); //  IAmAStringOnSteriod
 ### title_case
 
 ```javascript
-import {title_case} from "stringroid";
+import {title_case} from "strcaser";
 
 title_case("i'm a string on steriod"); // I'm a string on steriod
 ```
@@ -61,7 +61,7 @@ title_case("i'm a string on steriod"); // I'm a string on steriod
 ### lower_case
 
 ```javascript
-import {lower_case} from "stringroid";
+import {lower_case} from "strcaser";
 
 lower_case("I'm a String on steriod"); // i'm a String on steriod
 ```
