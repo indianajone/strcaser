@@ -5,10 +5,11 @@
     "main": "dist/index.js",
     "typings": "types/index.d.ts",
     "scripts": {
-        "compile": "rm -rf ./dist && rollup src/index.js --output dist/index.js",
+        "build": "rm -rf ./dist && rollup src/index.js --output dist/index.js",
         "coverage": "rm -rf ./coverage && istanbul cover",
         "lint": "eslint src test",
-        "test": "npm run lint && npm run coverage -- _mocha -- --compilers js:babel-register"
+        "test": "npm run lint && npm run coverage -- _mocha -- --compilers js:babel-register",
+        "prepublish": "npm run test && npm run build"
     },
     "files": [
         "dist/index.js",
