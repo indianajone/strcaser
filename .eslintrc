@@ -8,9 +8,6 @@
     "parserOptions": {
         "sourceType": "module"
     },
-    plugins: [
-        "mocha"
-    ],
     "extends": "eslint:recommended",
     "rules": {
         "no-useless-escape": 0
