@@ -1,8 +1,3 @@
-
-function title(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
-}
-
 /**
  * # title_case(string)
  * 
@@ -12,11 +7,13 @@ function title(str) {
  *
  * @return {String}
  */
-function titleCase (str) {
+export default function (str) {
     let words = str.split(' ');
     let firstWord = title(words.shift());
 
     return [firstWord].concat(words).join(' ');
 }
 
-module.exports = titleCase;
+function title(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}

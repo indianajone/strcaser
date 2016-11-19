@@ -8,9 +8,9 @@
  *
  * @return {String}
  */
-module.exports = function (str, diameter='\\s') {
+export default function (str, diameter='\\s') {
     return str.replace(/([A-Z])([a-z]+)?/g, '$& ')
-                .trim()
-                .replace(new RegExp(`${diameter}+`, 'g'), '_')
-                .toLowerCase();
-};
+            .trim()
+            .replace(new RegExp(`${diameter}+`, 'g'), '_')
+            .toLowerCase();
+}

@@ -7,6 +7,6 @@
  *
  * @return {String}
  */
-module.exports = function (str) {
+export default function (str) {
     return str.charAt(0).toLowerCase() + str.slice(1);
-};
+}

@@ -4,14 +4,14 @@ import {camel_case} from '../src';
 describe('CamelCase', () => {
     
     it('should be exists.', () => {
-        camel_case.should.be.exists;
+        expect(camel_case).to.be.exists;
     });
 
     it('should convert helloThere to HelloThere.', () => {
-        camel_case('helloThere').should.equals('HelloThere');
+        expect(camel_case('helloThere')).to.be.equals('HelloThere');
     });
 
     it('should convert i_am_a_robot to IAmARobot.', () => {
-        camel_case('i_am_a_robot').should.equals('IAmARobot');
+        expect(camel_case('i_am_a_robot')).to.be.equals('IAmARobot');
     });
 });

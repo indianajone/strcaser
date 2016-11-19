@@ -4,15 +4,15 @@ import {title_case} from '../src';
 describe('TitleCase', function () {
     
     it('should be exists.', () => {
-        title_case.should.be.exists;
+        expect(title_case).to.be.exists;
     });
 
     it('should convert title to Title', () => {
-        title_case('title').should.equals('Title');
+        expect(title_case('title')).to.be.equals('Title');
     });
 
     it('should title a sentence.', () => {
-        title_case('hello there!').should.be.equals('Hello there!');
+        expect(title_case('hello there!')).to.be.equals('Hello there!');
     });
 
 });

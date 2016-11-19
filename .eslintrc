@@ -10,6 +10,6 @@
     },
     "extends": "eslint:recommended",
     "rules": {
-        "no-useless-escape": 0
+        "no-console": 1
     }
 }

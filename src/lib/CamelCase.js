@@ -1,5 +1,5 @@
-const title_case = require('./TitleCase');
-const studle_case = require('./StudleCase');
+import title_case from './TitleCase';
+import studle_case from './StudleCase';
 
 /**
  * # camel_case(string)
@@ -10,6 +10,6 @@ const studle_case = require('./StudleCase');
  *
  * @return {String}
  */
-module.exports = function (str) {
+export default function (str) {
     return title_case(studle_case(str));
-};
+}

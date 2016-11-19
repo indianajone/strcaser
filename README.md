@@ -1,6 +1,6 @@
 # String Caser
 
-"STRING CASER", It gives functionality to convert string into various cases. Also provides some utility function like random a string.
+"STRING CASER", It gives functionality to convert string into various cases.
 
 ## Installation
 
@@ -15,14 +15,14 @@ Install module:
 ```javascript
 import {snake_case} from "strcaser";
 
-snake_case("I am a string on steriod"); // i_am_a_string_on_steriod
-snake_case("IAmAStringOnSteriod"); // i_am_a_string_on_steriod
+snake_case("I am a string"); // i_am_a_string
+snake_case("IAmAString"); // i_am_a_string
 ```
 
 or passing a diameter as second argument.
 
 ```javascript
-snake_case("i__am__a__string__on__streriod", "__") // i_am_a_string_on_steriod
+snake_case("i__am__a__string", "__") // i_am_a_string
 ```
 
 ### studle_case
@@ -30,14 +30,14 @@ snake_case("i__am__a__string__on__streriod", "__") // i_am_a_string_on_steriod
 ```javascript
 import {studle_case} from "strcaser";
 
-studle_case("i_am_a_string_on_steriod"); // iAmAStringOnSteriod
-studle_case("IAmAStringOnSteriod"); //  iAmAStringOnSteriod
+studle_case("i_am_a_string"); // iAmAString
+studle_case("IAmAString"); //  iAmAString
 ```
 
 or passing a diameter as second argument.
 
 ```javascript
-studle_case("i.am.a.string.on.steriod"); // iAmAStringOnSteriod
+studle_case("i.am.a.string"); // iAmAString
 ```
 
 ### camel_case
@@ -45,8 +45,8 @@ studle_case("i.am.a.string.on.steriod"); // iAmAStringOnSteriod
 ```javascript
 import {camel_case} from "strcaser";
 
-camel_case("i_am_a_string_on_steriod"); // IAmAStringOnSteriod
-camel_case("iAmAStringOnSteriod"); //  IAmAStringOnSteriod
+camel_case("i_am_a_string"); // IAmAString
+camel_case("iAmAString"); //  IAmAString
 ```
 
 ### title_case
@@ -54,7 +54,7 @@ camel_case("iAmAStringOnSteriod"); //  IAmAStringOnSteriod
 ```javascript
 import {title_case} from "strcaser";
 
-title_case("i'm a string on steriod"); // I'm a string on steriod
+title_case("i'm a string"); // I'm a string
 ```
 
 
@@ -63,5 +63,17 @@ title_case("i'm a string on steriod"); // I'm a string on steriod
 ```javascript
 import {lower_case} from "strcaser";
 
-lower_case("I'm a String on steriod"); // i'm a String on steriod
+lower_case("I'm a String"); // i'm a String
 ```
+
+## Test
+
+Test module:
+
+    `npm test`
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2016 Ravi Vaisayawan

@@ -3,12 +3,16 @@
     "version": "0.1.0",
     "description": "String Caser, convert string to various cases such as studleCase, CamelCase, snake_case",
     "main": "dist/index.js",
+    "typings": "types/index.d.ts",
     "scripts": {
-        "lint": "eslint src test"
+        "compile": "rm -rf ./dist && rollup src/index.js --output dist/index.js",
+        "coverage": "rm -rf ./coverage && istanbul cover",
+        "lint": "eslint src test",
+        "test": "npm run lint && npm run coverage -- _mocha -- --compilers js:babel-register"
     },
     "files": [
         "dist/index.js",
-        "dist/index.d.ts"
+        "types/index.d.ts"
     ],
     "tags": [
         "strcaser",
@@ -24,8 +28,13 @@
     "license": "MIT",
     "dependencies": {},
     "devDependencies": {
+        "babel-cli": "^6.18.0",
+        "babel-core": "^6.18.2",
+        "babel-preset-es2015": "^6.18.0",
         "chai": "^3.5.0",
         "eslint": "^3.10.2",
-        "mocha": "^3.1.2"
+        "istanbul": "1.1.0-alpha.1",
+        "mocha": "^3.1.2",
+        "rollup": "^0.36.3"
     }
 }
