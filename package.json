@@ -1,6 +1,6 @@
 {
   "name": "strcaser",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "String Caser, convert string to various cases such as studleCase, CamelCase, snake_case",
   "main": "dist/index.js",
   "typings": "types/index.d.ts",
