@@ -19,7 +19,7 @@
     "dist/index.js",
     "types/index.d.ts"
   ],
-  "tags": [
+  "keywords": [
     "strcaser",
     "string converter",
     "studle case",
